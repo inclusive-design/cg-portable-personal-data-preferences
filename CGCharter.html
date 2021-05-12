@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-      {TBD: name} Community Group Charter
+      Portable Personal Data Preferences Community Group Charter
     </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -42,18 +42,19 @@
       in your specific charter.}
     </p>
     <h1>
-      [DRAFT] <span class="remove">{TBD: name}</span> Community Group Charter
+      Portable Personal Data Preferences Community Group Charter
     </h1>
     <p>
       <span class="remove">{TBD: remove next sentence before submitting for
       approval}</span> This Charter is work in progress. To submit feedback,
-      please use <span class="remove">{TBD:GitHub repository URL}</span> Issues
-      where Charter is being developed.
+      please use <a href="https://github.com/inclusive-design/cg-portable-personal-data-preferences/issues">
+      cg-portable-personal-data-preferences</a> Issues where the Charter is
+      being developed.
     </p>
     <ul>
-      <li>This Charter: <span class="remove">{TBD: URI}</span>
+      <li>This Charter: <a href="https://github.com/inclusive-design/cg-portable-personal-data-preferences/blob/dev/CGCharter.html">https://github.com/inclusive-design/cg-portable-personal-data-preferences/blob/dev/CGCharter.html</a>
       </li>
-      <li>Previous Charter: <span class="remove">{TBD: URI}</span>
+      <li>Previous Charter: None -- this is the first version of the charter.
       </li>
       <li>Start Date: <span class="remove">{TBD: date the charter takes effect,
       estimate if not known. Update this if the charter is revised and include
@@ -68,29 +69,62 @@
       Goals
     </h2>
     <p>
-      <span class="remove">{TBD: describe the mission and goals of the
-      Community Group. This should be a brief description describing the reason
-      the group has been formed.}</span>
+      The mission of this group is to define a way for users to express
+      preferences regarding the collection, use, and disclosure of their
+      personal information. &nbsp;A goal is for these preferences to be
+      &ldquo;portable&rdquo;, meaning that they are encoded once and that
+      encoding can be used on a variety of platforms including websites,
+      desktops, and mobile devices, among others.
+    </p>
+    <p>
+      The problem addressed by the group is that terms of service agreements
+      most often provide an all-or-none binary acceptance or rejection of a
+      company or organization&rsquo;s policies. &nbsp;Furthermore, policies may
+      be in a form that is not accessible to persons with disabilities making it
+      difficult for those persons to make an informed decision. &nbsp;The goal
+      of this community group is to help users understand what they are being
+      asked to commit to, and to provide a finer grain of control in terms of
+      what they are willing to share. The overall goal is to put control of
+      personal data into an individual's hands.
+    </p>
+    <p>
+      This group may publish Specifications.
     </p>
     <h2 id="scope-of-work">
       Scope of Work
     </h2>
-    <p class="remove">
-      {TBD: Describe topics that are in scope. For specifications that the CLA
-      patent section applies to, it is helpful to describe the scope in a way
-      that it is clear what types of technologies will be defined in
-      specifications, as opposed to adoption by reference or underlying
-      technology not defined in the proposed spec. Key use cases are often
-      helpful in describing scope. If no specifications will be defined in the
-      group that the CLA patent section applies to, the charter should clearly
-      state that. A clear scope is particularly important where patent
-      licensing obligations may apply.}
-    </p>
+      <ul>
+        <li>
+          Investigate and enumerate issues with respect to gathering, storing,
+          and/or disclosure of an individual&rsquo;s personal data. &nbsp;This
+          is intended to result in a description of the problem space such that
+          solutions can be proposed to address it. &nbsp;In this context, use
+          cases may be defined and documented.
+        </li>
+        <li>
+          Develop user interfaces to gather individuals&rsquo; preferences that
+          are not confusing or difficult to understand, but use plain language.
+          Tools will be proposed as support the user interface by providing
+          simple supports that educate users about personal data and data
+          sharing and enable users to discover, explore and understand the
+          implications of their preferences.
+        </li>
+        <li>
+          Use the preferences gathering tool to investigate issues regarding
+          barriers to the portability of preferences and how they may be
+          overcome.
+        </li>
+        <li>
+            Develop a formal data model for the preferences.
+        </li>
+      </ul>
     <h3 id="out-of-scope">
       Out of Scope
     </h3>
-    <p class="remove">
-      {TBD: Identify topics known in advance to be out of scope}
+    <p>
+      Privacy regulations or standards are out of scope. While the resulting
+      outcomes may be referenced in privacy regulations, standards or
+      requirements, the intent is not to provide privacy specifications.
     </p>
     <h2 id="deliverables">
       Deliverables
@@ -98,12 +132,14 @@
     <h3 id="specifications">
       Specifications
     </h3>
-    <p class="remove">
-      {TBD: Provide a brief description of each specification the group plans
-      to produce. Where an estimate is possible, it can be useful to provide an
-      estimated schedule for key deliverables. As described below, the group
-      may later modify the charter deliverables. if no specifications, include:
-      "No Specifications will be produced under the current charter."}
+    <p>
+     The Specifications will provide a common language for declaring who you
+     trust with your data, for what purpose, for what length of time, and under
+     what conditions. It will also provide a common language for services
+     or products wishing to use your data to declare what data is essential to
+     provide the service in an auditable form. This standard may replace the
+     binary, all-or- nothing, terms of service agreements currently employed in
+     consenting to personal data use.
     </p>
     <h3 id="non-normative-reports">
       Non-Normative Reports
@@ -111,29 +147,37 @@
     <p>
       The group may produce other Community Group Reports within the scope of
       this charter but that are not Specifications, for instance use cases,
-      requirements, or white papers.
+      requirements, wire frames for user interfaces, or white papers.
     </p>
     <h3 id="test-suites">
       Test Suites and Other Software
     </h3>
-    <p class="remove">
-      {TBD: If there are no plans to create a test suite or other software,
-      please state that and remove the following paragraph. If Github is not
-      being used, then indicate where the license information is. If GitHub is
-      being used link to your LICENSE.md file in the next paragraph.}
-    </p>
     <p>
       The group MAY produce test suites to support the Specifications. Please
-      see the GitHub LICENSE file for test suite contribution licensing
-      information.
+      see the <a href="./03-bsd-license.html">GitHub LICENSE</a> file for test
+      suite contribution licensing information.
     </p>
     <h2 id="liaisons">
       Dependencies or Liaisons
     </h2>
-    <p class="remove">
-      {TBD: List any significant dependencies on other groups (inside or
-      outside W3C) or materials. }
+    <p>
+      There is potential common ground with the <a class="c4" href="https://www.w3.org/Privacy/">W3C Privacy efforts</a>,
+      including the <a class="c4" href="https://www.w3.org/Privacy/IG/">Privacy Interest Group</a>
+      and the <a class="c4" href="https://www.w3.org/community/privacycg/">Privacy Community Group</a>.
     </p>
+    <p>
+      Privacy regulations will influence this community group's work. These
+      include but are not limited to the following:
+    </p>
+    <ul>
+      <li>European Union GDPR:
+        <ul>
+          <li><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">Official version</a></li>
+          <li><a href="https://www.gdpreu.org/">User friendly version</a></li>
+        </ul>
+      </li>
+      <li>Canada's <a href="https://laws-lois.justice.gc.ca/eng/acts/P-8.6/">Personal Information Protection and Electronic Documents Act</a></li>
+    </ul>
     <h2 id="process">
       Community and Business Group Process
     </h2>
@@ -186,11 +230,6 @@
       W3C Software and Document License</a>. All other documents produced by
       the group should use that License where possible.
     </p>
-    <p class="remove">
-      {TBD: if CG doesn't use GitHub replace the remaining paragraphs in this
-      section with: "All Contributions are made on the groups public mail list
-      or public contrib list"}
-    </p>
     <p>
       Community Group participants agree to make all contributions in the
       GitHub repo the group is using for the particular document. This may be
@@ -199,10 +238,8 @@
     </p>
     <p id="githublicense">
       All Github repositories attached to the Community Group must contain a
-      copy of the <a href=
-      "https://github.com/w3c/licenses/blob/master/CG-CONTRIBUTING.md">CONTRIBUTING</a>
-      and <a href=
-      "https://github.com/w3c/licenses/blob/master/CG-LICENSE.md">LICENSE</a>
+      copy of the <a href="./CG-CONTRIBUTING.md">CONTRIBUTING</a> and
+      <a href="./CG-LICENSE.md">LICENSE</a>
       files.
     </p>
     <h2 id="transparency">

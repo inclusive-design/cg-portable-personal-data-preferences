@@ -1,6 +1,6 @@
-# cg-charter
-[Charter template for W3C Community and Business Groups](http://w3c.github.io/cg-charter/CGCharter.html) 
+# Portable Personal Data Preferences
 
-To create a markdown version, please use a markdown-translator (available on the Web).
+This repository is for tracking the work of the Portable Personal Data
+Preferences Community Group.
 
-Questions? Please contact team-community-process@w3.org.
+See the [group's charter](./CGCharter.html) for more information.
